@@ -1,2 +1,19 @@
 #create my work frame
-	git	
+	apt-get install git
+	apt-get install tig
+##git		
+	reviem how use git:
+	mkdir --> cd --> git init --> git add filename --> git commit -a -->tig	
+	
+	git push:	
+	create usrname at github.com
+	ssh-keygen
+	create Repository
+	just first git push
+		git remote add origin git@github.com:tanyb/word-gournal.git
+		git push -u origin master
+	git commit -a -m "new modify"
+	git push
+	
+
+	
